@@ -13,6 +13,9 @@
 		0E1FC235293602AE006EAF8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1FC234293602AE006EAF8C /* Preview Assets.xcassets */; };
 		0E1FC237293602AE006EAF8C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FC236293602AE006EAF8C /* Persistence.swift */; };
 		0E1FC23A293602AE006EAF8C /* PDPFacebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FC238293602AE006EAF8C /* PDPFacebook.xcdatamodeld */; };
+		0E1FC24429363F98006EAF8C /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FC24329363F98006EAF8C /* RoomItem.swift */; };
+		0E1FC24629364470006EAF8C /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FC24529364470006EAF8C /* StoryItem.swift */; };
+		0E1FC2482936609B006EAF8C /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FC2472936609B006EAF8C /* PostItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		0E1FC234293602AE006EAF8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E1FC236293602AE006EAF8C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0E1FC239293602AE006EAF8C /* PDPFacebook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PDPFacebook.xcdatamodel; sourceTree = "<group>"; };
+		0E1FC24329363F98006EAF8C /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		0E1FC24529364470006EAF8C /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		0E1FC2472936609B006EAF8C /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 		0E1FC22C293602AD006EAF8C /* PDPFacebook */ = {
 			isa = PBXGroup;
 			children = (
+				0E1FC24229363F83006EAF8C /* cells */,
 				0E1FC22D293602AD006EAF8C /* PDPFacebookApp.swift */,
 				0E1FC22F293602AD006EAF8C /* ContentView.swift */,
 				0E1FC231293602AE006EAF8C /* Assets.xcassets */,
@@ -71,6 +78,16 @@
 				0E1FC234293602AE006EAF8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E1FC24229363F83006EAF8C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0E1FC24329363F98006EAF8C /* RoomItem.swift */,
+				0E1FC24529364470006EAF8C /* StoryItem.swift */,
+				0E1FC2472936609B006EAF8C /* PostItem.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1FC2482936609B006EAF8C /* PostItem.swift in Sources */,
+				0E1FC24629364470006EAF8C /* StoryItem.swift in Sources */,
 				0E1FC237293602AE006EAF8C /* Persistence.swift in Sources */,
+				0E1FC24429363F98006EAF8C /* RoomItem.swift in Sources */,
 				0E1FC230293602AD006EAF8C /* ContentView.swift in Sources */,
 				0E1FC23A293602AE006EAF8C /* PDPFacebook.xcdatamodeld in Sources */,
 				0E1FC22E293602AD006EAF8C /* PDPFacebookApp.swift in Sources */,
